@@ -1,0 +1,8 @@
+services:
+  cargolambda:
+    build:
+      context: .
+    volumes:
+      - ../app:/app
+    working_dir: /app
+    tty: true

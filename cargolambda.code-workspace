@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "root",
+			"path": "."
+		},
+		{
+			"name": "app",
+			"path": "./app"
+		},
+		{
+			"name": "cdk",
+			"path": "./cdk"
+		}
+	],
+	"settings": {
+		"prettier.enable": false,
+		"biome.enable": false,
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit"
+		}
+	}
+}
