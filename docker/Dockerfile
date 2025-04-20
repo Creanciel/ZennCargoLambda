@@ -1,7 +1,7 @@
 FROM debian:bookworm-slim
 
-ARG RUST_VERSION=1.84.1
-ARG ZIG_VERSION=0.13.0
+ARG RUST_VERSION=1.86.0
+ARG ZIG_VERSION=0.14.0
 
 ENV HOME=/root \
     CARGO_HOME=/root/.cargo \
